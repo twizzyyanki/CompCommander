@@ -1,0 +1,16 @@
+#JSGF V1.0;
+/**
+ * JSGF Grammar for Hello World example
+ */
+grammar hello;
+public <default> = doing nothing | hold on computer | resume app;
+public <chrome> = open google chrome | close google chrome;
+public <email> = view emails | compose email; 
+public <music> =  play music | pause music | next song | previous song | stop music | close music;
+public <webportal> = start web portal | stop web portal;
+public <safari> = open safari | close safari;
+public <exit> = exit application;
+public <intellij> = open my dev environment | close my dev environment;
+public <insults> = you are very stupid | you should respect me;
+public <greeting> = hi computer | hey computer | okay computer;
+public <picture> = take a picture;
